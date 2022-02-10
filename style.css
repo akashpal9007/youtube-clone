@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.left-nav{
+    display: flex;
+    padding: 0.5rem;
+}
+.menu{
+    padding: 0.5rem;
+}
+.yt-logo{
+    display: flex;
+    padding: 0.4rem 1rem 0.5rem 1rem;
+}
+.yt-logo span{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 0.2rem;
+}
+.yt-logo img{
+    height: 2rem;
+    width: 2rem;
+}
+.menu-lines{
+    margin: 0.25rem;
+    height: 0.226rem;
+    width: 1.5rem;
+    background: #000;
+    border-radius: 0.5rem;
+}
+#searchbox{
+    border: 0.15rem solid #d4d1d1;
+    height: 2.5rem;
+    border-radius: 1px;
+    width: 36rem;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+}
+.mid-nav{
+    margin-top: 0.56rem;
+    display: flex;
+}
+.mid-nav img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.search{
+    display: flex;
+}
+.search-div{
+    border: solid #d4d1d1 o.11rem;
+    border-left: 0; 
+    background-color: #d4d1d1;;
+    height: 2.5rem;
+    width: 3rem;
+    display: flex;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.search img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.mic{
+    border: 2px solid grey;
+    background: grey;
+    border-radius: 2.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.4rem;
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 20rem; */
+    margin-right: 1rem;
+}
+.right-nav img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 1.5rem;
+}
+.right-nav button{
+    font-size: 1rem;
+    padding: 0.25rem;
+    background-color: white;
+    border: 0.12rem solid blue;
+    border-radius: 3px;
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+}
+.middle{
+    display: flex;
+}
+.option{
+    padding-top: 0.5rem;
+    display: flex;
+    margin: 1.25rem;
+}
+.option img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+}
+.option span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.video{
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.video img{
+    width: 17rem;
+    height: 11rem;
+}
+.video span{
+    margin-left: 0.8rem;
+}
